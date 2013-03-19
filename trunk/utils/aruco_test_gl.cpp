@@ -30,7 +30,7 @@ or implied, of Rafael Muñoz Salinas.
 #include <fstream>
 #include <sstream>
 #ifdef __APPLE__
-#include <gl.h>
+#include <OpenGL/gl.h>
 #include <GLUT/glut.h>
 #else
 #include <GL/gl.h>

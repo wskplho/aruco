@@ -29,7 +29,7 @@ or implied, of Rafael Muñoz Salinas.
 #include <fstream>
 #include <sstream>
 #ifdef __APPLE__
-  #include <gl.h>
+  #include <OpenGL/gl.h>
   #include <GLUT/glut.h>
 #elif _MSC_VER
   //http://social.msdn.microsoft.com/Forums/eu/vcgeneral/thread/7d6e6fa5-afc2-4370-9a1f-991a76ccb5b7
